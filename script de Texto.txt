@@ -1,0 +1,7 @@
+Const ForReading = 1
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile _
+    ("c:\scripts\servers and services.txt", ForReading)
+strResponses = objTextFile.ReadAll
+Wscript.Echo strResponses
+objTextFile.Close
