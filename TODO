@@ -1,0 +1,6 @@
+#####TODO LIST#####
+cambiar en testVariable.vbs %computername% por %clientname% en rdp y ver que retorne correctamente
+cambiar en el vbs de control de cambios y agregarle el clientname en el envio de mail
+concentrar y cambiar el deploy en los servers de manera automatizada
+grafico de la solucion
+cambiar el todo a ingles
